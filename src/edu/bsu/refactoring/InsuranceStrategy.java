@@ -1,7 +1,7 @@
 package edu.bsu.refactoring;
 
 public abstract class InsuranceStrategy {
-    public double calculateInsuranceVeryHigh(double income) {
+    double calculate(double income) {
         return (income - getAdjustment()) * getWeight() + getConstant();
     }
 

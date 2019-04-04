@@ -1,6 +1,10 @@
 package edu.bsu.refactoring;
 
 public class InsuranceStrategyLow extends InsuranceStrategy {
+
+    InsuranceStrategyLow() {
+    }
+
     @Override
     public int getConstant() {
         return 0;

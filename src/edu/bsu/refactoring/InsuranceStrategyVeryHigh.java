@@ -2,7 +2,7 @@ package edu.bsu.refactoring;
 
 public class InsuranceStrategyVeryHigh extends InsuranceStrategy {
 
-    public InsuranceStrategyVeryHigh() {
+    InsuranceStrategyVeryHigh() {
     }
 
     @Override
