@@ -13,4 +13,8 @@ public class InsuranceCalculator {
             return (income-60000)*0.02+105600;
         }
     }
+
+    public double calculateInsuranceVeryHigh(double income) {
+        return (income-60000)*0.02+105600;
+    }
 }
